@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8">
+
+    <title>Glare</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Mobile Specific Metas
+	================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+	================================================== -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+    <!-- Javascript resources
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+
+    <script type="text/javascript">
+	    $(window).load(function() {
+		    $('.flexslider').flexslider()
+		});
+    </script>
+    
+    <script type="text/javascript" src="js/modernizr.js"></script>
+</head>
+
+<body class="inner" style="background:url(dummy/h3.jpg) no-repeat center top">
+    <div class="container">
+        <header id="header" class="sixteen columns">
+            <div class="row transparent">
+                <div class="four columns logo alpha">
+                    <h1 id="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+                </div>
+
+                <div class="twelve columns omega">                    
+                    				<nav id="navigation">
+					<ul class="nav group">
+						<li>
+							<a href="index.html">Home w/ Slider </a>
+							<ul>
+								<li><a href="index_video.html">Home w/ Video Background</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="page.html">Single Post</a></li>
+								<li><a href="page_rev.html">Single Post Reversed</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Galleries</a>
+							<ul>
+								<li><a href="gallery_2col.html">2 Columns</a></li>
+								<li><a href="gallery_3col.html">3 Columns</a></li>
+								<li><a href="gallery_4col.html">4 Columns</a></li>					
+							</ul>
+						</li>
+						<li>
+							<a href="#">Set templates</a>
+							<ul>
+								<li><a href="set_4col.html">Set 4 columns</a></li>
+								<li><a href="set_3col.html">Set 3 columns</a></li>
+								<li><a href="set_slider.html">Set w/ slider</a></li>
+							</ul>
+						</li>				
+						<li>
+							<a href="fullwidth.html">Fullwidth</a>
+						</li>				
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>				
+					</ul>
+				</nav><!-- /navigation -->                    
+                </div><!-- /twelve -->
+            </div><!-- /row -->
+        </header><!-- /header -->
+        <div id="main" class="sixteen columns normal group">
+            <h2 class="page-title">The title</h2>
+
+            <div class="one-third column alpha sidebar">
+               
+                <aside class="widget_ci_ads125_widget widget group">
+                    <h3><span>Sponsors</span></h3>
+                    <ul id="ads125" class="group">
+                        <li><a href="#"><img src="http://placehold.it/125x125" alt=""></a></li>
+                        <li class="last"><a href="#"><img src="http://placehold.it/125x125" alt=""></a></li>
+                        <li><a href="#"><img src="http://placehold.it/125x125" alt=""></a></li>
+                        <li class="last"><a href="#"><img src="http://placehold.it/125x125" alt=""></a></li>
+                    </ul>
+                </aside>
+
+                <aside class="widget_ci_about_widget widget group">
+                    <h3><span>About me</span></h3>
+                    <div class="widget_about group">
+                        <img src="http://placehold.it/125x125" class="alignleft" alt="about me">Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris.
+                    </div>
+                </aside>
+
+                <aside class="widget_ci_flickr_widget widget group">
+                    <h3><span>Flickr</span></h3>
+                    <div class="f group">
+                        <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&amp;display=random&amp;&amp;layout=x&amp;source=user&amp;user=12313997@N00&amp;size=s"></script>
+                    </div>
+                </aside>
+
+                <aside class="widget_archive widget group">
+                    <h3><span>Archive</span></h3>
+                    <ul>
+                        <li><a href="#" title="July 2012">July 2012</a>&nbsp;(4)</li>
+                    </ul>
+                </aside>
+
+                <aside class="widget_calendar widget group">
+                    <h3><span>Calendar</span></h3>
+
+                    <div id="calendar_wrap">
+                        <table id="wp-calendar">
+                            <caption>
+                                August 2012
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col" title="Monday">M</th>
+                                    <th scope="col" title="Tuesday">T</th>
+                                    <th scope="col" title="Wednesday">W</th>
+                                    <th scope="col" title="Thursday">T</th>
+                                    <th scope="col" title="Friday">F</th>
+                                    <th scope="col" title="Saturday">S</th>
+                                    <th scope="col" title="Sunday">S</th>
+                                </tr>
+                            </thead>
+
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" id="prev"><a href="#" title="View posts for July 2012">&laquo; Jul</a></td>
+                                    <td class="pad">&nbsp;</td>
+                                    <td colspan="3" id="next" class="pad">&nbsp;</td>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <td colspan="2" class="pad">&nbsp;</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td id="today">23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="pad" colspan="2">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+
+                <aside class="widget_categories widget group">
+                    <h3><span>Categories</span></h3>
+                    <ul>
+                        <li><a href="#" title="">Some category</a></li>
+                    </ul>
+                </aside>
+
+                <aside class="widget_recent_entries widget group">
+                    <h3><span>Recent Posts</span></h3>
+                    <ul>
+                        <li><a href="#" title="Some Post">Some post</a></li>
+                        <li><a href="#" title="Some Post">Some post</a></li>
+                        <li><a href="#" title="Some Post">Some post</a></li>
+                        <li><a href="#" title="Some Post">Some post</a></li>
+                    </ul>
+                </aside>
+
+                <aside class="widget_search widget group">
+                    <h3><span>Search</span></h3>
+                    <form role="search" method="get" id="searchform" action="action.php">
+                        <div>
+                            <label class="screen-reader-text" for="s">Search for:</label> <input type="text" value="" name="s" id="s"> <input type="submit" id="searchsubmit" value="Search">
+                        </div>
+                    </form>
+                </aside>
+
+                <aside class="widget_tag_cloud widget group">
+                    <h3><span>Tags</span></h3>
+                    <div class="tagcloud">
+                        <a href="#" class='tag-link-12' title='3 topics' style='font-size: 18.5pt;'>Action</a>
+                        <a href="#" class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Adventure</a>
+                        <a href="#" class='tag-link-10' title='2 topics' style='font-size: 14.3pt;'>MAC</a>
+                        <a href="#" class='tag-link-9' title='4 topics' style='font-size: 22pt;'>PC</a>
+                    </div>
+                </aside>
+
+                <aside class="widget_text widget group">
+                    <h3><span>Text widget</span></h3>
+                    <div class="textwidget">
+                        <p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante.</p>
+                    </div>
+                </aside>
+                
+            </div><!-- /one-third -->
+
+            <div class="two-thirds column omega content hyphenate">
+                
+                <article class="entry">
+                
+                	<h2><a href="#">The Coveteur (and the industry fans who love them) celebrate RW&amp;CO with nachos</a></h2>
+                	<p class="meta"><time datetime="2012-05-10">August 24th, 2012</time> <span>//</span> Author: <a href="#">Gerasimos Tsiamalos</a> <span>//</span> <a href="#">13 Comments</a></p>
+
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="dummy/blog01.jpg" alt="" />
+					    </li>
+					    <li>
+					      <img src="dummy/blog02.jpg" alt="" />
+					    </li>
+					    <li>
+					      <img src="dummy/blog03.jpg" alt="" />
+					    </li>
+					  </ul>
+					</div>
+                
+	                <p><img src="dummy/dummy.jpg" alt="" class="alignleft">Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor.</p>
+	                <h2>Plain h2 header</h2>
+	                <p><img src="dummy/dummy.jpg" alt="" class="alignright">Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor.</p>
+	                <h3>H3 header</h3>
+	                <p>Nam vestibulum, <a href="#">arcu sodales feugiat consectetur</a>, nisl orci bibendum elit, <strong>eu euismod magna sapien</strong> ut nibh. Donec <em>semper quam scelerisque tortor</em> dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris</p>
+	                <p>Nam vestibulum, <a href="#">arcu sodales feugiat consectetur</a>, nisl orci bibendum elit, <strong>eu euismod magna sapien</strong> ut nibh. Donec <em>semper quam scelerisque tortor</em> dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris</p>
+	                <h4>H4 header</h4>
+	                <p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris</p>
+	                <h5>H5 header</h5>
+	                <p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris</p>
+	                <h6>H6 header</h6>
+	                
+	                
+		                <blockquote class="alignleft" style="width:300px;">
+		                    <div class="ci-blockquote-content">
+		                        <span>A Quote</span> Praesent vitae augue at lacus posuere placerat id in mauris. Praesent vitae augue at lacus posuere placerat id in mauris.
+		                    </div>
+		                </blockquote>
+		                
+		            <p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris</p>
+	
+	
+	                <h3>UL List</h3>
+	                <ul>
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur</li>                 
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur
+	                        <ul>
+	                            <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                            <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                        </ul>
+	                    </li>
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                </ul>
+	
+	                <h3>OL List</h3>
+	                <ol>
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur
+	                        <ol>
+	                            <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                            <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                        </ol>
+	                    </li>
+	                    <li>Nam vestibulum, arcu sodales feugiat consectetur</li>
+	                </ol>
+	
+	                <h3>Table styles</h3>
+	                <table class="tbl">
+	                    <tr>
+	                        <th>Some header</th>
+	                        <th>Other header</th>
+	                        <th>And one more</th>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                        <td>Nam vestibulum, arcu sodales</td>
+	                    </tr>
+	                </table>
+	                
+	                <div id="related-items">
+	                	<h3 class="widget-title"><span>Related Articles</span></h3>
+				      	
+				      	<div class="row">
+					      	<article class="one-third column alpha set">
+								<img src="dummy/related01.jpg" alt="" class="scale-with-grid" />
+								<a href="#">Set title</a>
+								<div class="zoom">
+									<a href="#" class="view-set">View set</a>
+									<a href="#" class="view-article">View article</a>
+								</div>	
+							</article><!-- /set -->
+							
+							<article class="one-third column omega set">
+								<img src="dummy/related02.jpg" alt="" class="scale-with-grid" />
+								<a href="#">Set title</a>
+								<div class="zoom">
+									<a href="#" class="view-set">View set</a>
+									<a href="#" class="view-article">View article</a>
+								</div>	
+							</article><!-- /set -->
+				      	</div><!-- /row -->	
+
+	                </div><!-- /related-articles -->
+	                
+	                
+	                <div class="row post-comments">
+				        <h3 class="widget-title"><span>12 Comments</span></h3>
+				        <ol id="comment-list">
+				            <li class="comment depth-1">
+				                <div class="comment-text group">
+				                    <img alt="" src="http://placehold.it/50x50" class="avatar"/>				
+				                    <div class="comment-copy">
+				                        <p class="comment-meta">admin - August 17, 2009</p>				
+				                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sit amet elit vitae arcu interdum ullamcorper. Nullam ultrices, nisi quis scelerisque convallis, augue neque tempor enim, et mattis justo nibh eu elit. Quisque ultrices gravida pede. Mauris accumsan vulputate tellus. Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+				                        <a href="#" class="btn-reply">Reply</a>
+				                    </div>
+				                </div>
+				                <ul class="children">
+				                    <li class="comment depth-2">
+				                        <div class="comment-text group">
+				                            <img alt="" src="http://placehold.it/50x50" class="avatar"/>				
+				                            <div class="comment-copy">
+				                                <p class="comment-meta"><a href="#">tsiger</a> - August 17, 2009</p>				
+				                                <p>Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+				                                <a href="#" class="btn-reply">Reply</a>
+				                            </div>
+				                        </div>
+				                        <ul class="children">
+				                            <li class="comment depth-3">
+				                                <div class="comment-text group">
+				                                    <img alt="" src="http://placehold.it/50x50" class="avatar"/>				
+				                                    <div class="comment-copy">
+				                                        <p class="comment-meta">admin - August 17, 2009</p>				
+				                                        <p>Mauris accumsan vulputate tellus. Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+				                                        <a href="#" class="btn-reply">Reply</a>
+				                                    </div>
+				                                </div>
+				                            </li>
+				                            <li class="comment depth-3">
+				                                <div class="comment-text group">
+				                                    <img alt="" src="http://placehold.it/50x50" class="avatar"/>				
+				                                    <div class="comment-copy">
+				                                        <p class="comment-meta"><a href="#">user</a> - August 17, 2009</p>				
+				                                        <p>Mauris accumsan vulputate tellus. Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+				                                        <a href="#" class="btn-reply">Reply</a>
+				                                    </div>
+				                                </div>
+				                            </li>
+				                        </ul>
+				                    </li>
+				                </ul>
+				            </li>
+				            <li class="comment depth-1">
+				                <div class="comment-text group">
+				                    <img alt="" src="http://placehold.it/50x50" class="avatar"/>				
+				                    <div class="comment-copy">
+				                        <p class="comment-meta">admin - August 17, 2009</p>				
+				                        <p>et mattis justo nibh eu elit. Quisque ultrices gravida pede. Mauris accumsan vulputate tellus. Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+				                        <a href="#" class="btn-reply">Reply</a>
+				                    </div>
+				                </div>
+				            </li>
+				            <li class="comment depth-1">
+				                <div class="comment-text group">
+				                    <img alt="" src="http://placehold.it/50x50" class="avatar"/>				
+				                    <div class="comment-copy">
+				                        <p class="comment-meta">admin - August 17, 2009</p>				
+				                        <p>et mattis justo nibh eu elit. Quisque ultrices gravida pede. Mauris accumsan vulputate tellus. Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+				                        <a href="#" class="btn-reply">Reply</a>
+				                    </div>
+				                </div>
+				            </li>
+				        </ol>
+				    </div><!-- /post-comments -->
+				    
+			    	<div id="form-wrapper" class="row">
+				        <h3 class="widget-title"><span>Have your say</span></h3>
+				        <div class="post-form">
+				            <form method="post" action="action.php">
+				                <p>
+				                    <label>Name:</label> <input type="text" class="text" id="name1" name="name1"/>
+				                </p>
+				                <p>
+				                    <label>Email:</label> <input type="text" class="text" id="email1" name="email1"/>
+				                </p>
+				                <p>
+				                    <label>URL:</label> <input type="text" class="text" id="url" name="url"/>
+				                </p>
+				                <p>
+				                    <label>Comment:</label> <textarea cols="5" rows="5" id="comment" name="comment"></textarea>
+				                </p>
+				                <p id="post-action">
+				                    <input type="submit" class="button fbutton" name="submit1" id="submit1" value="Submit Comment"/>
+				                </p>
+				            </form>
+				        </div><!-- /post-form -->
+				    </div><!-- /form-wrapper -->	                
+                
+                </article><!-- /post -->
+                
+            </div><!-- two-thirds -->
+            
+        </div><!-- /main -->
+    </div><!-- /container -->
+    
+    <div id="footer-wrap">
+
+    	<footer class="container footer">
+    		<div class="sixteen columns">
+	    		<aside class="one-third column alpha widget_text widget group">
+                    <h3><span>Text widget</span></h3>
+                    <div class="textwidget">
+                        <p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante.</p>
+                    </div>
+                </aside>
+	    		<aside class="one-third column widget_text widget group">
+                    <h3><span>Text widget</span></h3>
+                    <div class="textwidget">
+                        <p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante.</p>
+                    </div>
+                </aside>
+	    		<aside class="one-third column omega widget_text widget group">
+                    <h3><span>Text widget</span></h3>
+                    <div class="textwidget">
+                        <p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante.</p>
+                    </div>
+                </aside>
+    		</div><!-- /sixteen -->
+    	</footer>
+    </div><!-- /footer-wrap -->
+    
+    
+    <b id="t" class="brd"></b> <b id="l" class="brd"></b> <b id="r" class="brd"></b> <b id="b" class="brd"></b>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Glare</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- CSS
+  ================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	<!-- Javascript resources
+	================================================== -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>		
+	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="js/supersized.shutter.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript">
+	jQuery(function($){		
+		$.supersized({
+	
+			autoplay				:	1,
+			random					:	1,
+			slide_interval          :   5000,
+			transition              :   1, 			
+			transition_speed		:	700,		
+			slide_links				:	'blank',
+			slides 					:  	[			
+												{image : 'dummy/sz1.jpg'},
+												{image : 'dummy/sz2.jpg'},												
+												{image : 'dummy/sz3.jpg'}
+										]			
+		});
+	});    
+	</script>
+	
+    <!-- PrettyPhoto
+	================================================== -->
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+	<script src="js/jquery.prettyPhoto.js"></script>
+	
+</head>
+<body>
+		
+<div class="container">
+	<header id="header" class="sixteen columns">
+		<div class="row transparent">
+			<div class="four columns logo alpha">
+				<h1 id="logo"><a href="index.html"><img src="img/logo.png" alt="" /></a></h1>
+			</div>
+			<div class="twelve columns omega">
+								<nav id="navigation">
+					<ul class="nav group">
+						<li>
+							<a href="index.html">Home w/ Slider </a>
+							<ul>
+								<li><a href="index_video.html">Home w/ Video Background</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="page.html">Single Post</a></li>
+								<li><a href="page_rev.html">Single Post Reversed</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Galleries</a>
+							<ul>
+								<li><a href="gallery_2col.html">2 Columns</a></li>
+								<li><a href="gallery_3col.html">3 Columns</a></li>
+								<li><a href="gallery_4col.html">4 Columns</a></li>					
+							</ul>
+						</li>
+						<li>
+							<a href="#">Set templates</a>
+							<ul>
+								<li><a href="set_4col.html">Set 4 columns</a></li>
+								<li><a href="set_3col.html">Set 3 columns</a></li>
+								<li><a href="set_slider.html">Set w/ slider</a></li>
+							</ul>
+						</li>				
+						<li>
+							<a href="fullwidth.html">Fullwidth</a>
+						</li>				
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>				
+					</ul>
+				</nav><!-- /navigation -->			</div><!-- /twelve -->
+		</div><!-- /row -->	
+	</header><!-- /header -->
+</div><!-- /container -->
+
+<div id="controls-wrapper" class="load-item">
+	<div id="controls">			
+		<a id="prevslide" class="btn-slider">Previous</a><a id="pauseplay" class="btn-slider">Play</a><a id="nextslide" class="btn-slider">Next</a><a id="hide-slider" class="btn-slider">Hide Slider</a><a id="show-slider" class="btn-slider">Show Slider</a>			
+	</div>
+</div><!-- /controls-wrapper -->
+
+<div id="home-set" class="container">
+	<div class="sixteen columns">
+		<article class="four columns alpha set">
+			<img src="dummy/dummy01.jpg" alt="" class="scale-with-grid" />
+			<a href="#">Portraits</a>
+			<div class="zoom">
+				<a href="dummy/sl01.jpg" rel="pp" class="view-set">View set</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+		<article class="four columns set">
+			<img src="dummy/dummy02.jpg" alt="" class="scale-with-grid" />
+			<a href="#">Outdoors</a>
+			<div class="zoom">
+				<a href="dummy/sl01.jpg" rel="pp" class="view-set">View set</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+		<article class="four columns set">
+			<img src="dummy/dummy03.jpg" alt="" class="scale-with-grid" />
+			<a href="#">Studio Photography</a>
+			<div class="zoom">
+				<a href="dummy/sl01.jpg" rel="pp" class="view-set">View set</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+		<article class="four columns omega set">
+			<img src="dummy/dummy04.jpg" alt="" class="scale-with-grid" />
+			<a href="#">Set title</a>
+			<div class="zoom">
+				<a href="dummy/sl01.jpg" rel="pp" class="view-set">View set</a>
+				<a href="#" class="view-article">View article</a>
+			</div>	
+		</article><!-- /set -->
+	</div><!-- /sixteen columns -->
+</div><!-- /container -->
+
+<b id="t" class="brd"></b>
+<b id="l" class="brd"></b>
+<b id="r" class="brd"></b>
+<b id="b" class="brd"></b>
+
+</body>
+</html>
